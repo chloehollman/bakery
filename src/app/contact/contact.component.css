@@ -1,0 +1,26 @@
+img{
+    width: 100%;
+}
+
+body{
+    background-color: #CB7530;
+}
+
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+h2, label{
+    
+    color: white;
+    
+}
+
+
+.col-md-8{
+    padding: 3em;
+   
+}

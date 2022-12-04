@@ -1,1 +1,65 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://use.typekit.net/qpb6dds.css');
+
+body {
+    background-color: #FFFCF1;
+    font-family: effra, sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 80px;
+}
+
+h2{
+    font-size: 55px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 0px;
+    padding: 1.5em;
+    font-size: 18px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    width: 30%;
+    height: 12%;
+    left: 55%;
+    top: 300px;
+    border-radius: 52px;
+    font-size: 18px;
+    border-color:black ;
+
+}
+
+button:hover, button a:hover{
+    background-color: white;
+    color: black;
+    transition: all .4s ease-in-out;
+    text-decoration: none;
+    border-color:white;
+    
+    
+}
+
+button a{
+    color: white;
+    font-size: 20px;
+}
+
+/* h1, h2{
+    margin-left: 1em;
+}
+
+p{
+    margin-left: 4em;
+} */

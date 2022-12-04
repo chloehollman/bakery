@@ -1,60 +1,67 @@
-
 <!-- Header -->
-<cms-header></cms-header>
-<link rel="stylesheet" href="https://use.typekit.net/qpb6dds.css">
 
 
-
-<main>
-    <!-- Opening -->
+<!-- Opening -->
+<div id="blue-header">
     <section>
         <article>
             <h1>Butter and Croissants</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. !</p>
-                <button></button>
-            <img src="croissant_png">
-        </article>
-    </section>
-
-    <!-- Featured -->
-    <section>
-        <article id="wireframe">
         </article>
         <article>
-            <h1>Featured Items</h1>
-            <img src="cake-transparen.png">
-            <img src="croissant_png.png">
-            <img src="hotchocolate.png">
+
+            <img src="../../assets/images/croissant_png.png">
+            <button id="blackbutton"><a href="/order">Order Online</a></button>
         </article>
     </section>
+</div>
 
-    <!-- About Us -->
-    <section>
-        <article id="wireframe">
-            <img src="atwork.jpg">
-        </article>
-        <article>
-            <h1>About us</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. </p>
-        </article>
-    </section>
+<!-- Featured -->
+<section id="featured">
+    <div class="container">
+        <h2>Featured Items</h2>
+        
+        <div class="row">
+           
+            <div class="col-md-4">
 
-    <!-- Contact us -->
-    <section>
-        <article id="wireframe">
-            <img src="macaroons.jpg">
-        </article>
-        <article>
-            <h1>Contact Us!</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. </p>
-        </article>
-    </section>
+                <img id="cake" src="../../assets/images/cake-transparen.png">
 
-</main>
-<footer>
-    <footer>
-        <p>&#9813; Chloe Hollman &#9813; <a href="http://www.byui.edu/online">BYUI Online Learning</a> &#9813;</p>
-    </footer>
+            </div>
+
+            <div class="col-md-4">
+                <img id="pastry" src="../../assets/images/pastry_transparent.png">
+            </div>
+            <div class="col-md-4">
+                <img id="hotchoc" src="../../assets/images/hotchocolate.png">
+            </div>
+        </div>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    </div>
+</section>
+
+<!-- About Us -->
+<section id="about">
+    <article>
+        <h2>About us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. </p>
+    </article>
+    <article>
+        <img src="../../assets/images/atwork.jpg">
+    </article>
+</section>
+
+<!-- Contact us -->
+<section id="contact">
+    <article>
+        <img src="../../assets/images/macaroons.jpg">
+    </article>
+    <article>
+        <h2>Contact Us!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. </p>
+    </article>
+</section>

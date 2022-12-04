@@ -1,12 +1,160 @@
-article{
-    /* Rectangle 1 */
 
-position: absolute;
-width: 1449px;
-height: 559px;
-left: -9px;
-top: 135px;
 
-background: #8FD7FF;
+h1 {
+    font-weight: bold;
+    font-size: 80px;
+}
+
+
+
+#blue-header {
+    background-color: #8FD7FF;
+    width: fit-content;
+    padding:3em;
 
 }
+
+#blue-header h1 {
+    color: white;
+}
+
+button {
+    background-color: black;
+    color: white;
+
+    position: absolute;
+    width: 20%;
+    height: 8%;
+    left: 55%;
+    top: 300px;
+    border-radius: 52px;
+    font-size: 18px;
+    border-color:black ;
+
+}
+
+button:hover, button a:hover{
+    background-color: white;
+    color: black;
+    transition: all .4s ease-in-out;
+    text-decoration: none;
+    border-color:white;
+    
+    
+}
+
+button a{
+    color: white;
+    font-size: 20px;
+    
+}
+/* button a:hover{
+    text-decoration: none;
+    color: black;
+
+} */
+
+
+img {
+    width: 600px;
+    margin: 0;
+    float: right;
+}
+
+section {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+}
+
+/* ABOUT */
+
+#about {
+    background-color: #CB7530 ;
+
+}
+
+#about section{
+    grid-template-columns: 1fr 2fr;
+
+}
+
+#about img {
+    width:100%;
+}
+#about h2{
+    font-weight: 900;
+    color: white;
+    
+}
+
+/* CONTACT */
+
+#contact{
+    background-color: #FFD74B;
+    
+}
+
+#contact h2{
+    font-weight: 900;
+}
+
+#contact section{
+    grid-template-columns: 2fr 1fr;
+}
+
+#contact img{
+    width: 100%;
+}
+
+
+/* IMAGE RESIZiNG */
+
+#cake{
+    width: 250px;
+    margin-bottom: 120px;
+}
+
+#pastry {
+    width:200px;
+    
+
+}
+
+#hotchoc {
+    width: 130px;
+}
+
+/* FEATURED */
+#featured img{
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#featured {
+    padding: 1em;
+}
+
+#featured h2{
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+figcaption {
+    margin: 10px 0 0 0;
+    font-variant: small-caps;
+    font-family: Arial;
+    font-weight: bold;
+    color: #bb3333;
+}
+figure {
+    padding: 5px;
+}
+.next, .prev{
+    float: right;
+    padding: 1em;
+    text-decoration: none;
+    color:black;
+}
+
+
