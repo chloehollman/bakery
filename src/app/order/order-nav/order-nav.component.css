@@ -30,7 +30,7 @@ a{
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  color: black;
+  
   background-color: #FFD74B;
   font-weight: 900;
 }
@@ -38,6 +38,14 @@ a{
 .navbar-default .navbar-nav>li>a {
   color: black;
   font-size: 24px;
+}
+a:hover {
+  font-weight: 900;
+  
+}
+
+a{
+  transition-timing-function: ease-in-out;
 }
 
 
