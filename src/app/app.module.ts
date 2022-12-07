@@ -16,6 +16,12 @@ import { OrderAllComponent } from './order/order-all/order-all.component';
 import { OrderDrinksComponent } from './order/order-drinks/order-drinks.component';
 import { OrderCroissantsComponent } from './order/order-croissants/order-croissants.component';
 import { OrderPastriesComponent } from './order/order-pastries/order-pastries.component';
+import { OrderListComponent } from './order/order-list/order-list.component';
+import { OrderItemComponent } from './order/order-item/order-item.component';
+import { MenuItemsComponent } from './menu-items/menu-items.component';
+import { MenuDetailComponent } from './menu-items/menu-detail/menu-detail.component';
+import { MenuListComponent } from './menu-items/menu-list/menu-list.component';
+import { MenuItemsItemComponent } from './menu-items/menu-items-item/menu-items-item.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +36,13 @@ import { OrderPastriesComponent } from './order/order-pastries/order-pastries.co
     OrderAllComponent,
     OrderDrinksComponent,
     OrderCroissantsComponent,
-    OrderPastriesComponent
+    OrderPastriesComponent,
+    OrderListComponent,
+    OrderItemComponent,
+    MenuItemsComponent,
+    MenuDetailComponent,
+    MenuListComponent,
+    MenuItemsItemComponent
   ],
   imports: [
     BrowserModule,
