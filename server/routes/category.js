@@ -6,7 +6,7 @@ var router = express.Router();
 
 router.get('/', (req, res, next) => {
     Category.find() 
-    // .populate('category')
+    .populate('category')
     .then(categories => {
         res
             .status(200)

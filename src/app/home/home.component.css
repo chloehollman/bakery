@@ -67,6 +67,11 @@ section {
     grid-template-columns: 1fr 1fr;
 }
 
+.info-text{
+    padding: 60px;
+}
+
+
 /* ABOUT */
 
 #about {
@@ -140,16 +145,7 @@ section {
     padding-top: 1em;
 }
 
-figcaption {
-    margin: 10px 0 0 0;
-    font-variant: small-caps;
-    font-family: Arial;
-    font-weight: bold;
-    color: #bb3333;
-}
-figure {
-    padding: 5px;
-}
+
 .next, .prev{
     float: right;
     padding: 1em;
