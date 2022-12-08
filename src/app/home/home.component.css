@@ -7,6 +7,10 @@ h1 {
 
 
 
+
+
+
+
 #blue-header {
     background-color: #8FD7FF;
     width: fit-content;
@@ -61,7 +65,7 @@ img {
     float: right;
 }
 
-section {
+#home {
     display: grid;
 
     grid-template-columns: 1fr 1fr;
@@ -133,7 +137,7 @@ section {
 /* FEATURED */
 #featured img{
     
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr 1fr;
 }
 
 #featured {
@@ -151,6 +155,15 @@ section {
     padding: 1em;
     text-decoration: none;
     color:black;
+}
+
+figcaption{
+    text-align: center;
+}
+section {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
 }
 
 

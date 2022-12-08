@@ -1,5 +1,6 @@
 img{
     width:100%;
+    margin-left: 50px;
 }
 
 body{
@@ -16,4 +17,8 @@ h2{
     padding-left: 15px;
     margin-right: 0px;
     margin-left: auto;
+}
+
+.col-md-8{
+    margin-left: -50px;
 }
